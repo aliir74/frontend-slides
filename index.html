@@ -6,13 +6,18 @@
 
 		<title>reveal.js</title>
 
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
+
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 
 		<!-- Printing and PDF exports -->
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 		<script>
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
@@ -49,7 +54,9 @@
 					</section>
 				</section>
 				<section>
+					<h1>Formatting Tags</h1>
 					<section>
+						<br>
 						<p><strong>This text is strong</strong></p>
 						<pre><code data-trim data-noescape>
 							&lt;p&gt;&lt;strong&gt;This text is strong&lt;/strong&gt;&lt;/p&gt;
@@ -80,6 +87,51 @@
 						<pre><code data-trim data-noescape>
 							&lt;p&gt;This is &lt;sup&gt;superscripted&lt;/sup&gt; text.&lt;/p&gt;
 						</code></pre>
+					</section>
+				</section>
+				<section>
+					<h1>Comment</h1>
+					<!-- This is a comment -->
+
+					<p>This is a paragraph.</p>
+
+					<!-- Remember to add more information here -->
+					<pre><code data-trim data-noescape>
+						&lt;!-- This is a comment --&gt;
+
+						&lt;p&gt;This is a paragraph.&lt;/p&gt;
+
+						&lt;!-- Remember to add more information here --&gt;
+					</code></pre>
+				</section>
+				<section>
+					HTML Colors
+					<section class="row">
+						<div class="col-sm-3">
+							<div style="background-color:tomato;">Tomato</div>
+						</div>
+						<div class="col-sm-3">
+							<div style="background-color:orange;">Orange</div>
+						</div>
+							<div class="w3-col l3 m6 w3-padding">
+								<div style="background-color:dodgerblue;">DodgerBlue</div>
+							</div>
+							<div class="w3-col l3 m6 w3-padding">
+								<div style="background-color:mediumseagreen;">MediumSeaGreen</div>
+							</div>
+							<div class="w3-col l3 m6 w3-padding">
+								<div style="background-color:gray;">Gray</div>
+							</div>
+							<div class="w3-col l3 m6 w3-padding">
+								<div style="background-color:slateblue;">SlateBlue</div>
+							</div>
+							<div class="w3-col l3 m6 w3-padding">
+								<div style="background-color:violet;">Violet</div>
+							</div>
+							<div class="w3-col l3 m6 w3-padding">
+								<div style="background-color:lightgray;color:#444444">LightGray</div>
+							</div>
+						</div>
 					</section>
 				</section>
 			</div>
